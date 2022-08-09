@@ -1,0 +1,271 @@
+// @import '../base/base';
+@import "../themes/variables";
+
+.header {
+  box-sizing: border-box;
+  .container {
+    position: relative;
+    border: $c1-border;
+    display: flex;
+    background-color: $c1-bg-dark;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      img {
+        position: absolute;
+        width: 116px;
+        top: 10px;
+        left: 24px;
+      }
+    }
+    .register {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 40px;
+      img {
+        width: 31px;
+      }
+      span {
+        font-size: $fs-4;
+        font-weight: $fw-2;
+        color: $c1-text-white;
+      }
+      a {
+        text-decoration: none;
+        font-size: $fs-1;
+        font-weight: $fw-2;
+        color: $c1-text-whiteSmoke;
+        border: $c1-border;
+        text-shadow: $c1-text-shadow;
+        display: inline-block;
+        padding: 0 20px 0 10px;
+      }
+    }
+  }
+}
+
+.menu {
+  box-sizing: border-box;
+  .container {
+    .navbar {
+      justify-content: flex-start;
+      margin-left: 30px;
+      a {
+        text-decoration: none;
+        font-size: $fs-2;
+        font-weight: $fw-2;
+        color: $c1-text-dark;
+        display: inline-block;
+        position: relative;
+        margin-right: 60px;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 40px;
+          left: 0;
+          width: 100%;
+          background-color: $c2-bg-dark;
+          border: $c1-border;
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.carousel {
+  .container {
+    background: url(../../assets/img/image\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    .carousel-indicators [data-bs-target] {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: $c2-border;
+    }
+    .carousel-inner {
+      .carousel-item.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content {
+          h1 {
+            font-size: $fs-5;
+            font-weight: $fw-2;
+          }
+          span {
+            font-size: $fs-2;
+            font-weight: $fw-2;
+          }
+          button {
+            width: 150px;
+            height: 50px;
+            background-color: $c2-bg-earthYellow;
+            color: $c1-text-white;
+            font-size: $fs-2;
+            font-weight: $fw-2;
+            border: none;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+    .carousel-control-prev {
+      width: 10%;
+      .svg-inline--fa {
+        width: 66.13px;
+        height: 45.71px;
+        transform: rotate(-180deg);
+        color: $c3-text-whiteSmoke;
+      }
+    }
+    .carousel-control-next {
+      width: 10%;
+      .svg-inline--fa {
+        width: 66.13px;
+        height: 45.71px;
+        color: $c3-text-whiteSmoke;
+      }
+    }
+  }
+}
+
+.product-feature {
+  .container {
+    h1 {
+      margin-top: 46px;
+      text-align: center;
+      font-size: $fs-5;
+      font-weight: $fw-3;
+    }
+    .row {
+      margin: 50px 0;
+      justify-content: space-around;
+      align-items: center;
+      .col {
+        width: 26%;
+        flex: none;
+        box-sizing: border-box;
+        margin-bottom: 40px;
+        padding: 0;
+        background-color: $c1-bg-WhiteSmoke;
+        .item {
+          .top {
+            padding: 0 20px;
+            img {
+              width: 220px;
+              height: 156px;
+              transform: translate(15%, 15%);
+            }
+            h4 {
+              font-size: $fs-3;
+              font-weight: $fw-2;
+              height: 60px;
+              margin-top: 30px;
+              margin-bottom: 0;
+            }
+            p {
+              font-size: $fs-2;
+              color: $c1-text-neonSilver;
+              font-weight: $fw-2;
+            }
+          }
+          .bottom {
+            padding-top: 10px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            .btn-buy {
+                width: 50%;
+                background-color: $c1-bg-earthYellow;
+                color: $c1-text-dark;
+                border: none;
+                padding: 5px;
+                font-size: $fs-3;
+                font-weight: $fw-1;
+                text-decoration: none;
+              }
+              .btn-price {
+                width: 50%;
+                font-size: $fs-3;
+                font-weight: $fw-5;
+                background-color: $c1-bg-gainsboro;
+                color: $c1-text-dark;
+                padding: 5px;
+                text-decoration: none;
+              }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  .container {
+    .top {
+      background-color: $c1-bg-WhiteSmoke;
+      display: flex;
+      justify-content: center;
+      .col {
+        flex: none;
+        width: 30%;
+        .item {
+          padding: 15px;
+          h5 {
+            font-weight: $fw-5;
+          }
+          ul {
+            list-style: none;
+            padding: 0;
+            a {
+              text-decoration: none;
+              color: $c1-text-dark;
+              span {
+                color: $c1-text-red;
+              }
+            }
+          }
+        }
+      }
+      hr {
+        width: 2px;
+        background-color: $c2-bg-dark;
+      }
+    }
+    .bottom {
+      background-color: $c1-bg-gray80;
+      display: flex;
+      justify-content: center;
+      .col {
+        flex: none;
+        width: 30%;
+        .item {
+          padding: 15px;
+          h5 {
+            font-weight: $fw-5;
+          }
+          ul {
+            list-style: none;
+            padding: 0;
+            a {
+              text-decoration: none;
+              color: $c1-text-dark;
+              span {
+                color: $c1-text-red;
+              }
+            }
+          }
+        }
+      }
+      hr {
+        width: 2px;
+        background-color: $c2-bg-dark;
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shoe Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome 6.1.1 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <div class="logo">
+          <a href="#home">
+            <img src="./assets/img/image 3.png" alt="" />
+          </a>
+        </div>
+        <div class="register">
+          <img src="./assets/img/image 8.png" alt="" />
+          <span>(1)</span>
+          <a href="#">Login</a>
+          <a href="./view/register.html">Register</a>
+        </div>
+      </div>
+    </header>
+    <!-- MENU -->
+    <section class="menu">
+      <div class="container">
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#">Men</a>
+          <a href="#">Woman</a>
+          <a href="#">Kid</a>
+          <a href="#">Sport</a>
+        </nav>
+      </div>
+    </section>
+    <!-- CAROUSEL -->
+    <section class="carousel">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide container"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/image 4.png" class="d-block" alt="..." />
+            <div class="content">
+              <h1>Product name</h1>
+              <span>Product description...</span>
+              <br />
+              <button>Buy Now</button>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/image 4.png" class="d-block" alt="..." />
+            <div class="content">
+              <h1>Product name</h1>
+              <span>Product description...</span>
+              <br />
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="carousel-item">
+            <img src="./assets/img/image 4.png" class="d-block" alt="..." />
+            <div class="content">
+              <h1>Product name</h1>
+              <span>Product description...</span>
+              <br />
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="fa fa-play" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="fa fa-play" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- PRODUCT FEATURE -->
+    <section class="product-feature">
+      <div class="container">
+        <h1>- Product Feature -</h1>
+        <div class="row" id="product-list">
+          <!-- htmlContent -->
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="top">
+          <div class="col">
+            <div class="item">
+              <h5>GET HELP</h5>
+              <ul>
+                <li>
+                  <a href="#">Contact us</a>
+                </li>
+                <li>
+                  <a href="#">Shopping</a>
+                </li>
+                <li>
+                  <a href="#">NIKEiD</a>
+                </li>
+                <li>
+                  <a href="#">Nike+</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="col">
+            <div class="item">
+              <h5>ORDERS</h5>
+              <ul>
+                <li>
+                  <a href="#">Payment options</a>
+                </li>
+                <li>
+                  <a href="#"> Shipping and delivery </a>
+                </li>
+                <li>
+                  <a href="#">Returns</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="col">
+            <div class="item">
+              <h5>REGISTER</h5>
+              <ul>
+                <li>
+                  <span
+                    >Create one account to manage everything you do with Nike,
+                    from your shopping preferences to your Nike+ activity.</span
+                  >
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Learn more</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="col">
+            <div class="item">
+              <h5>EMAIL SIGN UP</h5>
+              <ul>
+                <li>
+                  <span
+                    >Be the first to know about new products and special
+                    offers.</span
+                  >
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Sign up now</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="col">
+            <div class="item">
+              <h5>GIFT CARDS</h5>
+              <ul>
+                <li>
+                  <span>Give the gift that always fits.</span>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>View cards</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="col">
+            <div class="item">
+              <h5>STORES NEAR YOU</h5>
+              <ul>
+                <li>
+                  <span>Locate a Nike retail store or authorized retailer</span>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Search</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- (Optional) Use CSS or JS implementation -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+      integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+      integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- JS -->
+    <script src="./controllers/index.js"></script>
+    <script src="./controllers//register.js"></script>
+  </body>
+</html>

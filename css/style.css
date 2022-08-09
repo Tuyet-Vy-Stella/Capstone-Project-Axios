@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.header {
+  box-sizing: border-box;
+}
+.header .container {
+  position: relative;
+  border: 1px solid #000000;
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .logo img {
+  position: absolute;
+  width: 116px;
+  top: 10px;
+  left: 24px;
+}
+.header .container .register {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+.header .container .register img {
+  width: 31px;
+}
+.header .container .register span {
+  font-size: 30px;
+  font-weight: 300;
+  color: #FFF;
+}
+.header .container .register a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  color: #F7F7F7;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  padding: 0 20px 0 10px;
+}
+
+.menu {
+  box-sizing: border-box;
+}
+.menu .container .navbar {
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+.menu .container .navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+  display: inline-block;
+  position: relative;
+  margin-right: 60px;
+}
+.menu .container .navbar a::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background-color: #030303;
+  border: 1px solid #000000;
+  display: none;
+}
+
+.carousel .container {
+  background: url(../../assets/img/image\ 6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+}
+.carousel .container .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+}
+.carousel .container .carousel-inner .carousel-item.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .container .carousel-inner .carousel-item.active .content h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+.carousel .container .carousel-inner .carousel-item.active .content span {
+  font-size: 20px;
+  font-weight: 300;
+}
+.carousel .container .carousel-inner .carousel-item.active .content button {
+  width: 150px;
+  height: 50px;
+  background-color: #F8B653;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  border: none;
+  margin-top: 20px;
+}
+.carousel .container .carousel-control-prev {
+  width: 10%;
+}
+.carousel .container .carousel-control-prev .svg-inline--fa {
+  width: 66.13px;
+  height: 45.71px;
+  transform: rotate(-180deg);
+  color: lightgray;
+}
+.carousel .container .carousel-control-next {
+  width: 10%;
+}
+.carousel .container .carousel-control-next .svg-inline--fa {
+  width: 66.13px;
+  height: 45.71px;
+  color: lightgray;
+}
+
+.product-feature .container h1 {
+  margin-top: 46px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+.product-feature .container .row {
+  margin: 50px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+.product-feature .container .row .col {
+  width: 26%;
+  flex: none;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  padding: 0;
+  background-color: #F5F5F5;
+}
+.product-feature .container .row .col .item .top {
+  padding: 0 20px;
+}
+.product-feature .container .row .col .item .top img {
+  width: 220px;
+  height: 156px;
+  transform: translate(15%, 15%);
+}
+.product-feature .container .row .col .item .top h4 {
+  font-size: 24px;
+  font-weight: 300;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.product-feature .container .row .col .item .top p {
+  font-size: 20px;
+  color: #CBC9C9;
+  font-weight: 300;
+}
+.product-feature .container .row .col .item .bottom {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.product-feature .container .row .col .item .bottom .btn-buy {
+  width: 50%;
+  background-color: #E1B067;
+  color: #000;
+  border: none;
+  padding: 5px;
+  font-size: 24px;
+  font-weight: 200;
+  text-decoration: none;
+}
+.product-feature .container .row .col .item .bottom .btn-price {
+  width: 50%;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #DEDDDC;
+  color: #000;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.footer .container .top {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+}
+.footer .container .top .col {
+  flex: none;
+  width: 30%;
+}
+.footer .container .top .col .item {
+  padding: 15px;
+}
+.footer .container .top .col .item h5 {
+  font-weight: 600;
+}
+.footer .container .top .col .item ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .container .top .col .item ul a {
+  text-decoration: none;
+  color: #000;
+}
+.footer .container .top .col .item ul a span {
+  color: #FC0303;
+}
+.footer .container .top hr {
+  width: 2px;
+  background-color: #030303;
+}
+.footer .container .bottom {
+  background-color: #CCCCCC;
+  display: flex;
+  justify-content: center;
+}
+.footer .container .bottom .col {
+  flex: none;
+  width: 30%;
+}
+.footer .container .bottom .col .item {
+  padding: 15px;
+}
+.footer .container .bottom .col .item h5 {
+  font-weight: 600;
+}
+.footer .container .bottom .col .item ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .container .bottom .col .item ul a {
+  text-decoration: none;
+  color: #000;
+}
+.footer .container .bottom .col .item ul a span {
+  color: #FC0303;
+}
+.footer .container .bottom hr {
+  width: 2px;
+  background-color: #030303;
+}
+
+.register .container {
+  padding: 0 150px;
+}
+.register .container form .row {
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.register .container form .row .col-5 .item {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #AE18E2;
+}
+.register .container form .row .col-5 .item input {
+  border: none;
+  margin: 0 7px;
+}
+.register .container form .row .col-5 .item span {
+  color: #FC0303;
+}
+.register .container form .row .col-5 .item p {
+  margin: 0;
+}
+.register .container form button {
+  background-color: #AE18E2;
+  width: 219px;
+  height: 50px;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  transform: translateX(250%);
+}

@@ -1,0 +1,40 @@
+@import '../themes/variables';
+
+.register{
+    .container{
+        padding: 0 150px;
+        form{
+            .row{
+                justify-content: space-around;
+                margin-bottom: 30px;
+                .col-5{
+                    .item{
+                        display: flex;
+                        align-items: center;
+                        border-bottom: $c3-border;
+                        input{
+                            border: none;
+                            margin: 0 7px;
+                        }
+                        span{
+                            color: $c1-text-red;
+                        }
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            button{
+                background-color: $c3-bg-purple;
+                width: 219px;
+                height: 50px;
+                border: none;
+                color: $c1-text-white;
+                font-size: $fs-2;
+                transform: translateX(250%);
+            }
+        }
+    }
+}
+

@@ -1,0 +1,60 @@
+//Background Color
+$c1-bg-dark: #000;
+$c1-bg-white: #fff;
+$c1-bg-WhiteSmoke: #F5F5F5;
+$c1-bg-gray80: #CCCCCC;
+$c1-bgframe-gray: #F8F8F8;
+$c2-bg-dark: #030303;
+$c3-bg-purple: #AE18E2;
+//button
+$c1-bg-gray: #F8F8F8; //xài cho bg size,frame
+$c1-bg-linear: linear-gradient(180deg, #6181F3 0%, #7C97F5 99.48%);
+$c2-bg-linear: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #D017EE 89.71%);
+$c1-bg-earthYellow :#E1B067; //buynow
+$c2-bg-earthYellow: #F8B653;
+$c1-bg-gainsboro: 	#DEDDDC; //giatien
+
+
+//text color
+
+$c1-text-white: #FFF;
+$c1-text-whiteSmoke: #F7F7F7;
+$c2-text-whiteSmoke: #FFFCFC; //tăng giảm size
+$c3-text-whiteSmoke: lightgray;
+$c1-text-dark: #000;
+$c2-text-dark: #140101; //lorem
+$c3-text-dark: #1E1D1D; //size
+$c1-text-limeGreen: 	#1ED90E;
+$c1-text-neonSilver: 	#CBC9C9; //short descript ...
+$c1-text-red:#FC0303 ;
+
+//shadow
+$c1-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+//border
+$c1-border: 1px solid #000000;
+$c2-border: 1px solid rgba(0, 0, 0, 0.13);
+$c3-border: 3px solid #AE18E2;
+
+
+//font
+
+//fontsize
+
+$fs-1: 16px;
+$fs-2: 20px;
+$fs-3: 24px;
+$fs-4: 30px;
+$fs-5: 40px;
+
+//fontweight:
+$fw-1: 200;
+$fw-2: 300;
+$fw-3: 400;
+$fw-4: 500;
+$fw-5: 600;
+
+
+
+
