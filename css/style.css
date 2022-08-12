@@ -340,6 +340,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 auto;
+  margin-bottom: 58px;
 }
 .productrelated .container #tableRender .frame {
   margin-top: 85px !important;
@@ -517,24 +518,65 @@
   line-height: 29px;
 }
 
-.footer {
-  margin: 100px 0px 30px 280px;
+.footer .container .top {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
 }
-.footer p {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 29px;
+.footer .container .top .col {
+  flex: none;
+  width: 30%;
+}
+.footer .container .top .col .item {
+  padding: 15px;
+}
+.footer .container .top .col .item h5 {
+  font-weight: 600;
+}
+.footer .container .top .col .item ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .container .top .col .item ul a {
+  text-decoration: none;
   color: #000;
 }
-.footer a {
-  color: #000;
-}
-.footer .title-item {
-  margin-left: 15px;
-  margin-top: 10px;
-}
-.footer .text-red {
+.footer .container .top .col .item ul a span {
   color: #FC0303;
+}
+.footer .container .top hr {
+  width: 2px;
+  background-color: #030303;
+}
+.footer .container .bottom {
+  background-color: #CCCCCC;
+  display: flex;
+  justify-content: center;
+}
+.footer .container .bottom .col {
+  flex: none;
+  width: 30%;
+}
+.footer .container .bottom .col .item {
+  padding: 15px;
+}
+.footer .container .bottom .col .item h5 {
+  font-weight: 600;
+}
+.footer .container .bottom .col .item ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .container .bottom .col .item ul a {
+  text-decoration: none;
+  color: #000;
+}
+.footer .container .bottom .col .item ul a span {
+  color: #FC0303;
+}
+.footer .container .bottom hr {
+  width: 2px;
+  background-color: #030303;
 }
 
 .register .container {
