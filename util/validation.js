@@ -56,13 +56,10 @@ function checkValidation(){
 
         if(inpPwdConfirm.validity.valueMissing){
             errPassConfirm.innerHTML = 'Please confirm your password'
+        } else if(inpPwdConfirm.value !== inpPassword.value){
+            errPassConfirm.innerHTML = 'Password confirm Không chính xác'
+        } else{
+            errPassConfirm.innerHTML = ''
         }
-        
-
-
-
-        // return alert('Form is invalid');
     }
 }
-
-// Check password's input: kiểm tra input của password confirm có trùng với input của password ko
