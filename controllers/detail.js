@@ -1,4 +1,4 @@
-import '../util/backtotop.js'
+// import '../util/backtotop'
 
 function getProduct(){
 
@@ -11,7 +11,6 @@ function getProduct(){
         renderProduct(result.data.content,'tableRender');
     })
 }
-
 
  function renderProduct (arrFrame,idBody){
     var htmlContent = '';

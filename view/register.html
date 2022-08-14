@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Shoe Shop</title>
+    <title>Register</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -49,7 +49,7 @@
           <img src="../assets/img/image 8.png" alt="" />
           <span>(1)</span>
           <a href="#">Login</a>
-          <a href="#">Register</a>
+          <a href="./register.html">Register</a>
         </div>
       </div>
     </header>
@@ -146,7 +146,7 @@
               </div>
               <!-- Gender -->
               <div class="col-5 form-group">
-                <div class="item border-0 pt-4">
+                <div class="item border-0 pt-4" id="gender">
                   <label class="pe-5" for="">Gender</label>
                   <input type="radio" name="gender" value="true" checked>
                   <p class="ps-3 pe-5">Male</p>
@@ -156,7 +156,7 @@
                 </div>
               </div>
             </div>
-            <button id="btnSubmit">Submit</button>
+            <button type="button" id="btnSubmit">Submit</button>
           </form>
       </div>
     </section>
@@ -304,6 +304,6 @@
     <!-- JS -->
     <script src="../models/Users.js"></script>
     <script src="../util/validation.js"></script>
-    <script src="../controllers/register.js"></script>
+    <script type="module" src="../controllers/register.js"></script>
   </body>
 </html>

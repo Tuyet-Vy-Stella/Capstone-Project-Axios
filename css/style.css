@@ -93,46 +93,38 @@
   height: 15px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.13);
+  background-color: #CCCCCC;
 }
 .carousel .container .carousel-inner .carousel-item.active {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.carousel .container .carousel-inner .carousel-item.active .content h1 {
-  font-size: 40px;
+.carousel .container .carousel-inner .carousel-item.active .rendertable-item-inner .carousel-product {
+  width: 821px;
+}
+.carousel .container .carousel-inner .carousel-item.active .rendertable-item-inner .carousel-infoProduct .infoProduct h1 {
   font-weight: 300;
 }
-.carousel .container .carousel-inner .carousel-item.active .content span {
+.carousel .container .carousel-inner .carousel-item.active .rendertable-item-inner .carousel-infoProduct .infoProduct span {
   font-size: 20px;
   font-weight: 300;
 }
-.carousel .container .carousel-inner .carousel-item.active .content button {
-  width: 150px;
-  height: 50px;
+.carousel .container .carousel-inner .carousel-item.active .rendertable-item-inner .carousel-infoProduct .infoProduct a {
+  display: inline-block;
   background-color: #F8B653;
   color: #FFF;
   font-size: 20px;
-  font-weight: 300;
   border: none;
-  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 15px;
 }
-.carousel .container .carousel-control-prev {
-  width: 10%;
+.carousel .container .carousel-control-prev-icon {
+  background-image: url(../../assets/img/Prev.png);
 }
-.carousel .container .carousel-control-prev .svg-inline--fa {
-  width: 66.13px;
-  height: 45.71px;
-  transform: rotate(-180deg);
-  color: lightgray;
-}
-.carousel .container .carousel-control-next {
-  width: 10%;
-}
-.carousel .container .carousel-control-next .svg-inline--fa {
-  width: 66.13px;
-  height: 45.71px;
-  color: lightgray;
+.carousel .container .carousel-control-next-icon {
+  background-image: url(../../assets/img/Next.png);
 }
 
 .product-feature .container h1 {
