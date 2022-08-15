@@ -61,5 +61,8 @@ function checkValidation(){
         } else{
             errPassConfirm.innerHTML = ''
         }
+    } 
+    else{
+        return isValid;
     }
 }
