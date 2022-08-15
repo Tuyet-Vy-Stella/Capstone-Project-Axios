@@ -93,20 +93,25 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        .rendertable-item-inner{
-          .carousel-product{
+        .rendertable-item-inner {
+          .carousel-product {
             width: 821px;
           }
-          .carousel-infoProduct{
-            .infoProduct{
-              h1{
+          .carousel-infoProduct {
+            .infoProduct {
+              h1 {
                 font-weight: $fw-2;
               }
-              span{
+              span {
                 font-size: $fs-2;
                 font-weight: $fw-2;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 230px;
+                display: inline-block;
               }
-              a{
+              a {
                 display: inline-block;
                 background-color: $c2-bg-earthYellow;
                 color: $c1-text-white;
@@ -163,11 +168,21 @@
               height: 60px;
               margin-top: 30px;
               margin-bottom: 0;
+              white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 260px;
+                display: inline-block;
             }
             p {
               font-size: $fs-2;
               color: $c1-text-neonSilver;
               font-weight: $fw-2;
+              white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 170px;
+                display: inline-block;
             }
           }
           .bottom {
@@ -176,24 +191,24 @@
             align-items: center;
             text-align: center;
             .btn-buy {
-                width: 50%;
-                background-color: $c1-bg-earthYellow;
-                color: $c1-text-dark;
-                border: none;
-                padding: 5px;
-                font-size: $fs-3;
-                font-weight: $fw-1;
-                text-decoration: none;
-              }
-              .btn-price {
-                width: 50%;
-                font-size: $fs-3;
-                font-weight: $fw-5;
-                background-color: $c1-bg-gainsboro;
-                color: $c1-text-dark;
-                padding: 5px;
-                text-decoration: none;
-              }
+              width: 50%;
+              background-color: $c1-bg-earthYellow;
+              color: $c1-text-dark;
+              border: none;
+              padding: 5px;
+              font-size: $fs-3;
+              font-weight: $fw-1;
+              text-decoration: none;
+            }
+            .btn-price {
+              width: 50%;
+              font-size: $fs-3;
+              font-weight: $fw-5;
+              background-color: $c1-bg-gainsboro;
+              color: $c1-text-dark;
+              padding: 5px;
+              text-decoration: none;
+            }
           }
         }
       }
